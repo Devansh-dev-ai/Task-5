@@ -1,24 +1,54 @@
 # Task 6 – Login Page UI
 
-## 📌 Project Overview
-This project is a simple and visually appealing **Login Page UI** developed using HTML and CSS. It features a split-screen layout with an illustration on the left side and a login form on the right side.
+## 📌 Project Description
 
-The design aims to provide users with a clean, user-friendly, and engaging login experience.
+This project focuses on designing a simple, modern, and visually appealing **Login Page User Interface** using HTML5 and CSS3.
 
-## ✨ Features
-- **Split Layout:** The page is divided into two sections.
-- **Illustration Section:** Displays an image on the left side.
-- **Login Form:** Includes email and password input fields.
-- **Welcome Message:** Displays a friendly greeting for returning users.
-- **Forgot Password:** Includes a forgot password option.
-- **Login Button:** A styled login button with a blue background.
-- **Registration Option:** Provides a link-style option for new users.
-- **Gradient Background:** Uses radial gradients to enhance the visual appearance.
-- **Flexbox and Grid:** Uses CSS Flexbox and Grid for layout alignment.
+The login page follows a split-screen layout, where the left section displays an illustration and the right section contains the login form. The design uses a combination of CSS gradients, Flexbox, and CSS Grid to create a balanced layout with properly aligned elements.
+
+The interface is designed to provide a welcoming experience for returning users while keeping the login process simple and easy to understand.
+
+This project is part of my HTML and CSS learning journey, where I am practicing webpage structuring, styling, positioning, and layout management.
+
+## ✨ Key Features
+
+### 1. Split-Screen Layout
+- The webpage is divided into two equal sections.
+- The left section contains an illustration.
+- The right section contains the login interface.
+- Both sections occupy the full viewport height.
+
+### 2. Illustration Section
+- Displays an image centered within the left section.
+- Uses a radial gradient background to enhance the appearance.
+- Maintains a clean and visually balanced design.
+
+### 3. Login Form Section
+- Includes a friendly greeting: "Hello Again!"
+- Displays a welcome-back message.
+- Provides separate input fields for email and password.
+- Uses appropriate HTML input types (`email` and `password`).
+- Includes placeholder text to guide users.
+
+### 4. Login and Additional Options
+- A prominently styled Login button.
+- A Forgot Password option for users who cannot remember their credentials.
+- A Register Now option for new users.
+
+### 5. Visual Styling
+- Uses radial gradients for background styling.
+- Applies custom colors to headings, text, and buttons.
+- Uses rounded corners for input fields and buttons.
+- Maintains consistent spacing and alignment throughout the interface.
 
 ## 🛠️ Technologies Used
-- **HTML5** – For structuring the web page.
-- **CSS3** – For styling, gradients, layouts, and alignment.
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Structuring the login page and form elements |
+| CSS3 | Styling, backgrounds, spacing, and alignment |
+| Flexbox | Creating the split-screen layout and aligning content |
+| CSS Grid | Organizing and positioning form elements |
 
 ## 📂 Project Structure
 
@@ -31,24 +61,65 @@ Task-6/
 └── README.md
 ```
 
+## ⚙️ Implementation Details
+
+### HTML Structure
+The HTML document is divided into two main sections inside a parent container:
+
+- **Left Section (`left-div`):** Contains the illustration.
+- **Right Section (`right-div`):** Contains the welcome message, login form, password recovery option, login button, and registration option.
+
+Semantic HTML elements such as `main`, `form`, `label`, `input`, and `button` are used to organize the content.
+
+### CSS Styling and Layout
+The CSS is responsible for the visual presentation of the page.
+
+- The universal selector resets the default margin and padding.
+- Flexbox is used in the main container to position the two sections side by side.
+- Radial gradients provide a soft background effect.
+- CSS Grid helps arrange and align the form elements.
+- Custom dimensions, margins, padding, and border-radius properties improve the overall appearance.
+
 ## 🚀 How to Run the Project
 
-1. Download or clone this repository.
-2. Open the project folder in VS Code or any code editor.
-3. Make sure the HTML, CSS, and image files are in the correct locations.
-4. Open `index.html` in your web browser.
+1. Clone or download the project repository.
+2. Extract the project files if downloaded as a ZIP archive.
+3. Open the project folder in VS Code or another code editor.
+4. Ensure that `index.html`, `style.css`, and the illustration image are in their correct locations.
+5. Open `index.html` in any modern web browser to view the login page.
+
+## 📚 Learning Outcomes
+
+Through this project, I practiced and gained experience in:
+
+- Structuring webpages using HTML5.
+- Creating and styling HTML forms.
+- Working with different input types.
+- Using CSS Flexbox for horizontal alignment.
+- Understanding and implementing CSS Grid.
+- Applying radial gradients to webpage backgrounds.
+- Managing spacing, dimensions, and element positioning.
+- Combining HTML and CSS to create a visually appealing user interface.
+
+## 🔮 Future Improvements
+
+The following features can be added to improve the project further:
+
+- Make the layout fully responsive for mobile and tablet screens.
+- Add JavaScript-based form validation.
+- Implement password visibility toggle.
+- Connect the login form to a backend authentication system.
+- Add functional Forgot Password and Registration pages.
+- Improve accessibility and keyboard navigation.
 
 ## 🎯 Project Objective
 
-The objective of this project is to practice HTML and CSS concepts, including:
-- Creating structured web pages using HTML.
-- Styling form elements and buttons.
-- Using CSS Flexbox and Grid.
-- Applying CSS gradients.
-- Aligning and centering elements.
-- Designing a clean and user-friendly interface.
+The primary objective of this project is to strengthen my understanding of HTML and CSS by building a practical user interface from scratch.
+
+It demonstrates how basic web development concepts can be combined to create an organized, attractive, and user-friendly login experience.
 
 ---
 
 **Project:** Task 6 – Login Page UI  
-**Status:** Completed
+**Technologies:** HTML5 & CSS3  
+**Project Status:** Completed
