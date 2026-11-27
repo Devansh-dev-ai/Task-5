@@ -1,59 +1,63 @@
-# Task 6 – Login Page UI
+# Task 7 – Laundry Services Landing Page
 
-## 📌 Project Description
+## 📌 Project Overview
 
-This project focuses on designing a simple, modern, and visually appealing **Login Page User Interface** using HTML5 and CSS3.
+This project is a responsive-style landing page for a laundry service website, developed using **HTML5 and CSS3**. The main objective is to create a clean, attractive, and user-friendly interface that introduces laundry services and encourages visitors to book a service.
 
-The login page follows a split-screen layout, where the left section displays an illustration and the right section contains the login form. The design uses a combination of CSS gradients, Flexbox, and CSS Grid to create a balanced layout with properly aligned elements.
+The webpage features a navigation bar at the top and a hero section containing promotional text, a call-to-action button, and an illustrative image representing laundry services.
 
-The interface is designed to provide a welcoming experience for returning users while keeping the login process simple and easy to understand.
+The design focuses on simplicity, proper alignment, visual hierarchy, and effective use of colors to provide a pleasant user experience.
 
-This project is part of my HTML and CSS learning journey, where I am practicing webpage structuring, styling, positioning, and layout management.
+## 🎯 Project Objectives
 
-## ✨ Key Features
-
-### 1. Split-Screen Layout
-- The webpage is divided into two equal sections.
-- The left section contains an illustration.
-- The right section contains the login interface.
-- Both sections occupy the full viewport height.
-
-### 2. Illustration Section
-- Displays an image centered within the left section.
-- Uses a radial gradient background to enhance the appearance.
-- Maintains a clean and visually balanced design.
-
-### 3. Login Form Section
-- Includes a friendly greeting: "Hello Again!"
-- Displays a welcome-back message.
-- Provides separate input fields for email and password.
-- Uses appropriate HTML input types (`email` and `password`).
-- Includes placeholder text to guide users.
-
-### 4. Login and Additional Options
-- A prominently styled Login button.
-- A Forgot Password option for users who cannot remember their credentials.
-- A Register Now option for new users.
-
-### 5. Visual Styling
-- Uses radial gradients for background styling.
-- Applies custom colors to headings, text, and buttons.
-- Uses rounded corners for input fields and buttons.
-- Maintains consistent spacing and alignment throughout the interface.
+- Create a structured webpage using semantic HTML elements.
+- Design a navigation bar with a logo, navigation links, and a username button.
+- Implement a two-column hero section using CSS layouts.
+- Use appropriate typography and colors to improve readability.
+- Apply CSS properties for spacing, alignment, sizing, and styling.
+- Create an attractive call-to-action section to encourage user interaction.
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| HTML5 | Structuring the login page and form elements |
-| CSS3 | Styling, backgrounds, spacing, and alignment |
-| Flexbox | Creating the split-screen layout and aligning content |
-| CSS Grid | Organizing and positioning form elements |
+- **HTML5:** Used to structure the webpage and organize its content into semantic sections.
+- **CSS3:** Used to style the webpage, manage layouts, control spacing, and enhance its visual appearance.
+
+## ✨ Features
+
+### 1. Navigation Bar
+- Contains a logo positioned on the left side.
+- Includes four navigation links:
+  - Home
+  - Services
+  - About Us
+  - Contact Us
+- Features a Username button on the right side.
+- Uses inline-block elements and vertical alignment to arrange the navigation components.
+
+### 2. Hero Section
+The main content is divided into two columns:
+
+**Left Section – Promotional Content**
+- Displays an attractive headline: "Revitalize Your Clothes with Expert Laundry Services!"
+- Includes a short description highlighting the convenience and quality of laundry services.
+- Contains a call-to-action button labeled "Book a service today!"
+
+**Right Section – Illustration**
+- Displays an image representing a washing machine.
+- Provides visual balance to the promotional content.
+- Uses CSS width and alignment properties to position the image.
+
+### 3. Styling and Layout
+- Uses a light background to maintain a clean appearance.
+- Applies contrasting colors to headings and buttons.
+- Uses rounded corners for buttons.
+- Implements CSS spacing and sizing properties for consistent alignment.
+- Uses Flexbox through `inline-flex` to arrange the main content horizontally.
 
 ## 📂 Project Structure
 
 ```text
-Task-6/
+Task-7/
 │
 ├── index.html
 ├── style.css
@@ -61,65 +65,60 @@ Task-6/
 └── README.md
 ```
 
-## ⚙️ Implementation Details
+## 💻 CSS Concepts Implemented
 
-### HTML Structure
-The HTML document is divided into two main sections inside a parent container:
+The project demonstrates the use of several fundamental CSS concepts:
 
-- **Left Section (`left-div`):** Contains the illustration.
-- **Right Section (`right-div`):** Contains the welcome message, login form, password recovery option, login button, and registration option.
-
-Semantic HTML elements such as `main`, `form`, `label`, `input`, and `button` are used to organize the content.
-
-### CSS Styling and Layout
-The CSS is responsible for the visual presentation of the page.
-
-- The universal selector resets the default margin and padding.
-- Flexbox is used in the main container to position the two sections side by side.
-- Radial gradients provide a soft background effect.
-- CSS Grid helps arrange and align the form elements.
-- Custom dimensions, margins, padding, and border-radius properties improve the overall appearance.
+| CSS Property | Purpose |
+|---|---|
+| `margin` | Controls the outer spacing of elements. |
+| `padding` | Adds space inside elements. |
+| `box-sizing` | Controls how element dimensions are calculated. |
+| `display: inline-block` | Places elements horizontally while maintaining block properties. |
+| `display: inline-flex` | Arranges the main content using Flexbox. |
+| `vertical-align` | Aligns inline-block elements vertically. |
+| `text-align` | Aligns text horizontally. |
+| `border-radius` | Creates rounded button corners. |
+| `background-color` | Sets background colors. |
+| `align-self` | Controls the alignment of individual flex items. |
 
 ## 🚀 How to Run the Project
 
-1. Clone or download the project repository.
-2. Extract the project files if downloaded as a ZIP archive.
-3. Open the project folder in VS Code or another code editor.
-4. Ensure that `index.html`, `style.css`, and the illustration image are in their correct locations.
-5. Open `index.html` in any modern web browser to view the login page.
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code or any code editor.
+3. Make sure `index.html`, `style.css`, and the image file are in the correct locations.
+4. Open `index.html` in your web browser.
+5. Explore the Laundry Services landing page.
 
 ## 📚 Learning Outcomes
 
-Through this project, I practiced and gained experience in:
+Through this project, I gained practical experience in:
 
 - Structuring webpages using HTML5.
-- Creating and styling HTML forms.
-- Working with different input types.
-- Using CSS Flexbox for horizontal alignment.
-- Understanding and implementing CSS Grid.
-- Applying radial gradients to webpage backgrounds.
-- Managing spacing, dimensions, and element positioning.
-- Combining HTML and CSS to create a visually appealing user interface.
+- Applying CSS selectors and styling techniques.
+- Creating navigation bars using inline-block elements.
+- Understanding horizontal and vertical alignment.
+- Implementing two-column layouts using Flexbox.
+- Working with images and controlling their dimensions.
+- Improving webpage presentation through typography, colors, and spacing.
 
 ## 🔮 Future Improvements
 
-The following features can be added to improve the project further:
+The project can be enhanced further by implementing:
 
-- Make the layout fully responsive for mobile and tablet screens.
-- Add JavaScript-based form validation.
-- Implement password visibility toggle.
-- Connect the login form to a backend authentication system.
-- Add functional Forgot Password and Registration pages.
-- Improve accessibility and keyboard navigation.
+- Responsive layouts for mobile, tablet, and desktop screens.
+- Functional navigation links.
+- Interactive buttons with hover effects.
+- A service booking form.
+- Additional sections describing laundry services and pricing.
+- JavaScript functionality for user interaction.
 
-## 🎯 Project Objective
+## 👨‍💻 Author
 
-The primary objective of this project is to strengthen my understanding of HTML and CSS by building a practical user interface from scratch.
+**Devansh Durgapal**
 
-It demonstrates how basic web development concepts can be combined to create an organized, attractive, and user-friendly login experience.
+B.Tech Computer Science and Engineering Student
 
 ---
 
-**Project:** Task 6 – Login Page UI  
-**Technologies:** HTML5 & CSS3  
-**Project Status:** Completed
+*This project was developed as part of a practical HTML and CSS learning assignment to strengthen frontend web development fundamentals.*
